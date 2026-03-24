@@ -1,4 +1,4 @@
-# Personal Portfolio
+# Personal Portfolio Homepage
 
 A fully responsive personal portfolio website built with HTML and CSS, designed to work across all screen sizes from 320px to 1920px wide.
 
@@ -36,8 +36,8 @@ Layout sections include a header/hero, a projects showcase, and a contact sectio
 portfolio/
 ├── index.html
 ├── styles.css
-├── assets/
-
+├── pics/
+├── README.md
 ```
 
 ---
@@ -46,7 +46,7 @@ portfolio/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/portfolio.git
+   git clone https://github.com/your-username/HomePage.git
    ```
 2. Open `index.html` in your browser — no build step required.
 
