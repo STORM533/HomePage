@@ -48,6 +48,7 @@ img {
     flex-wrap: wrap;
     display: flex;
     flex: 1 1 auto ;
+    
 }
 #aboutMe{
     font-size: larger;
@@ -55,9 +56,6 @@ img {
     
 }
 h1{
-    max-width: 10px;
-    min-width: 100%;
     margin-bottom: 0px;
     padding-top:20px;
-    
 }
