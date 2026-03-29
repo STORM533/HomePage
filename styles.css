@@ -149,7 +149,7 @@ footer {
 }
 @media(max-width:320px){
     header{
-        width:100%;
+        width:400px;
         min-height: 900px;
         flex-direction: column;
         gap: 50px;
@@ -170,13 +170,13 @@ footer {
     
 }
 main {
-    width: max-content;
+    width: 400px;
     display: flex;
     flex-direction: column;
     flex: 1 1 auto ;
 }
 footer{
-    width: max-content;
+    width: 320px;
     display: flex;
     flex-direction: column;
     gap: 50px;
