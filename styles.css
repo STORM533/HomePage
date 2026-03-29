@@ -14,11 +14,10 @@ body {
     margin: 0px;
 }
 header{
-    padding-top: 100px;
+    padding: 50px;
     min-height:600px;
     background-color:rgb(0, 128, 248);
     display: flex;
-    padding: 10px;
     background-image: url(https://images.unsplash.com/photo-1613946576929-3cc54e1cb5ae?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-size: cover;
     background-position: center;
@@ -72,7 +71,7 @@ h1{
     font-family: 'zoomzoom',sans-serif;
 }
 h4 {
-    margin-left: 40px;
+    margin: 50px;
     font-size: xx-large;
     font-family: 'zoomzoom',sans-serif;
 }
@@ -108,7 +107,7 @@ h4 {
     justify-content: space-between;
 }
 .down {
-    font-family: 'something';
+    font-family: 'somethings';
     font-size: xx-large;
     font-weight: 300;
     padding: 0px 30px 10px 30px;
@@ -139,7 +138,7 @@ footer {
     font-size: xx-large;
 }
 #msg {
-    font-family: 'something',sans-serif;
+    font-family: 'somethings',sans-serif;
     font-size: larger;
 }
 #number ,#mail {
@@ -149,44 +148,49 @@ footer {
 }
 @media(max-width:320px){
     header{
-        width:400px;
+        width:100%;
         min-height: 900px;
         flex-direction: column;
         gap: 50px;
+        padding: 0px;
     }
     #rightSide {
         align-items: center;
         justify-content: center;
+        width: 100%;
+        max-width: 100%;
     }
     #aboutMe {
         padding: 30px;
         margin: 0px;
     }
-#myWorks {
-    margin: 50px;
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-    gap: 50px;
-    
-}
-main {
-    width: 400px;
-    display: flex;
-    flex-direction: column;
-    flex: 1 1 auto ;
-}
-footer{
-    width: 320px;
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-}
-#ls{
-    justify-content: center;
-    align-items: center;
-}
-#rs{
-    justify-content: center;
-    align-items: center;
-}
+    #myWorks {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 50px;
+    }
+    h4 {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+    main {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex: 1 1 auto ;
+    }
+    footer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;padding: 0px;
+    }
+    #ls,#rs{
+        justify-content: center;
+        align-items: center;
+    }
+    #ls {
+        padding: 10px;
+    }
 }
