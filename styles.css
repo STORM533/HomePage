@@ -27,10 +27,12 @@ header{
 }   
 #icons{
     display: flex;
-    gap: 8px;
+    gap: 20px;
 }
 svg {
     width: 30px;
+    background-color: rgb(240, 248, 255);
+    border-radius: 10px;
 }
 img {
     box-sizing: border-box;
@@ -112,4 +114,38 @@ h4 {
     font-size: xx-large;
     font-weight: 300;
     padding: 0px 30px 10px 30px;
+}
+footer {
+    display: flex;
+    background-image: url(./pics/adam-kring-EFRD6Cr7skc-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    justify-content: space-between;
+
+}
+#ls {
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#rs {
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#contacts {
+    font-family: 'zoomzoom',sans-serif;
+    font-size: xx-large;
+}
+#msg {
+    font-family: 'something',sans-serif;
+    font-size: larger;
+}
+#number ,#mail {
+    display: flex;
+    gap: 15px;
+    align-items: center;
 }
