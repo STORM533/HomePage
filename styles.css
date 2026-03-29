@@ -130,8 +130,8 @@ footer {
 #rs {
     max-width: 500px;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;    
 }
 #contacts {
     font-family: 'zoomzoom',sans-serif;
@@ -186,11 +186,60 @@ footer {
         flex-direction: column;
         gap: 50px;padding: 0px;
     }
-    #ls,#rs{
+    #ls{
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+}
+@media(max-width:768px) {
+    header{
+        max-width:100%;
+        min-height: 900px;
+        flex-direction: column;
+        gap: 50px;
+        padding: 0px;
+        padding-top:50px ;
+    }
+    #rightSide {
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        max-width: 100%;
+    }
+    #aboutMe {
+        padding: 30px;
+        margin: 0px;
+    }
+    #myWorks {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 50px;
+    }
+    h4 {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+    main {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex: 1 1 auto ;
+    }
+    footer{
+        max-width: 100%;
+        display: flex;
+        gap: 50px;
+    }
+    #ls{
+        display: flex;
         justify-content: center;
         align-items: center;
     }
-    #ls {
-        padding: 10px;
+    #rs {
+        max-width: 200px;
+        justify-content: center;
+        align-items: center;
     }
 }
